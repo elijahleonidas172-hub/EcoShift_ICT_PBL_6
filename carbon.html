@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Carbon Footprint Tips - EcoShift</title>
+
+  <!-- BOOTSTRAP -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- BOOTSTRAP ICONS -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- GOOGLE FONT -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="carbon.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+
+    <div class="container">
+
+      <!-- LOGO -->
+
+      <a class="navbar-brand" href="#">
+        <img src="images/Eco.png" alt="EcoShift Logo" class="navbar-logo">
+      </a>
+
+      <!-- TOGGLER -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <!-- NAV LINKS -->
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+
+          <!-- HOME -->
+
+          <li class="nav-item">
+
+            <a class="nav-link active" href="index.html">
+              Home
+            </a>
+
+          </li>
+
+          <!-- ABOUT -->
+
+          <li class="nav-item">
+
+            <a class="nav-link" href="about.html">
+              About
+            </a>
+
+          </li>
+
+          <!-- DashBoard -->
+
+          <li class="nav-item">
+
+            <a class="nav-link" href="dashboard.html">
+              Dashboard
+            </a>
+          </li>
+          </a>
+
+          </li>
+          <!-- RESOURCES DROPDOWN -->
+
+          <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+
+              Resources
+
+            </a>
+
+            <ul class="dropdown-menu custom-dropdown">
+
+              <li>
+                <a class="dropdown-item" href="energy.html">
+                  Energy Saving
+                </a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="carbon.html">
+                  Carbon Reduction
+                </a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="clean_energy.html">
+                  Clean Energy
+                </a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="waste.html">
+                  Waste Reduction
+                </a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="transport.html">
+                  Green Transport
+                </a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <!-- CONTACT -->
+
+          <li class="nav-item">
+
+            <a class="nav-link" href="contact.html">
+              Contact
+            </a>
+
+          </li>
+
+          <!-- LOGIN -->
+
+          <li class="nav-item">
+
+            <a class="nav-link login-btn" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+
+              Log In
+
+            </a>
+
+          </li>
+
+          <!-- SIGN UP -->
+
+          <li class="nav-item">
+
+            <a class="signup-btn" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">
+
+              Sign Up
+
+            </a>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+  <section class="carbon-section">
+
+    <div class="overlay"></div>
+
+    <div class="container">
+
+      <!-- HEADER -->
+
+      <div class="section-header text-center">
+
+        <span class="mini-tag">
+          Carbon Footprint Reduction
+        </span>
+
+        <h1>
+          Lower Your Carbon Footprint Step-by-Step
+        </h1>
+
+        <p>
+          Small Daily Actions, Big Global Change
+        </p>
+
+      </div>
+
+      <!-- CARDS -->
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- CARD 1 -->
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="tip-card">
+
+            <div class="tip-icon">
+              <i class="bi bi-shop"></i>
+            </div>
+
+            <div class="tip-content">
+
+              <h3>
+                Eat Local
+              </h3>
+
+              <p>
+                Buy produce from local markets to reduce the carbon cost
+                of long-distance food transportation and packaging.
+              </p>
+
+              <div class="tip-line"></div>
+
+              <span class="tip-badge">
+                Lower Transport Emissions
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="tip-card">
+
+            <div class="tip-icon">
+              <i class="bi bi-bag-check"></i>
+            </div>
+
+            <div class="tip-content">
+
+              <h3>
+                Mindful Consumption
+              </h3>
+
+              <p>
+                Buy only what you truly need to reduce the energy used
+                in manufacturing, shipping, and waste production.
+              </p>
+
+              <div class="tip-line"></div>
+
+              <span class="tip-badge">
+                Reduce Industrial Waste
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="tip-card">
+
+            <div class="tip-icon">
+              <i class="bi bi-flower1"></i>
+            </div>
+
+            <div class="tip-content">
+
+              <h3>
+                Plant-Based Days
+              </h3>
+
+              <p>
+                Swapping meat for beans or grains a few times each week
+                can significantly lower your personal carbon impact.
+              </p>
+
+              <div class="tip-line"></div>
+
+              <span class="tip-badge">
+                Eco-Friendly Food Choices
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- SECTION 2 : TRANSPORT EMISSIONS -->
+
+    <section class="carbon-data-section">
+
+      <div class="container">
+
+        <div class="carbon-glass-card" data-aos="fade-up">
+
+          <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+              <div class="carbon-image">
+                <img src="images/flangostina-exhaust-fumes-372677.jpg" alt="">
+              </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+              <div class="carbon-text">
+
+                <span class="carbon-tag">
+                  Transport & Emissions
+                </span>
+
+                <h2>
+                  Transportation Produces Major CO₂ Emissions
+                </h2>
+
+                <p>
+                  Cars, buses, motorcycles, and trucks release large amounts
+                  of carbon dioxide into the atmosphere every day.
+                  Urban traffic congestion in growing cities increases fuel use
+                  and air pollution levels.
+                </p>
+
+                <div class="carbon-stats">
+
+                  <div class="stat-box">
+                    <h3>24%</h3>
+                    <span>
+                      Global CO₂ emissions come from transportation
+                    </span>
+                  </div>
+
+                  <div class="stat-box">
+                    <h3>1 Car</h3>
+                    <span>
+                      Produces around 4.6 metric tons of CO₂ yearly
+                    </span>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- SECTION 3 : YANGON DATA -->
+
+    <section class="carbon-data-section">
+
+      <div class="container">
+
+        <div class="carbon-glass-card" data-aos="fade-right">
+
+          <div class="row align-items-center g-5 flex-lg-row-reverse">
+
+            <div class="col-lg-6">
+
+              <div class="carbon-image">
+                <img src="images/marcinjozwiak-climate-4800494 (1).jpg" alt="">
+              </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+              <div class="carbon-text">
+
+                <span class="carbon-tag">
+                  Yangon Statistics
+                </span>
+
+                <h2>
+                  Air Pollution Continues to Rise in Yangon
+                </h2>
+
+                <p>
+                  Rapid urbanization, traffic congestion, fuel-powered generators,
+                  and industrial growth contribute to increasing carbon emissions
+                  and declining air quality across Yangon.
+                </p>
+
+                <div class="carbon-stats">
+
+                  <div class="stat-box">
+                    <h3>5M+</h3>
+                    <span>
+                      Estimated population living in Yangon Region
+                    </span>
+                  </div>
+
+                  <div class="stat-box">
+                    <h3>Thousands</h3>
+                    <span>
+                      Of vehicles enter Yangon roads daily
+                    </span>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- SECTION 4 : CARBON REDUCTION -->
+
+    <section class="carbon-data-section">
+
+      <div class="container">
+
+        <div class="carbon-glass-card" data-aos="zoom-in">
+
+          <div class="carbon-center">
+
+            <span class="carbon-tag">
+              Climate Action
+            </span>
+
+            <h2>
+              Simple Lifestyle Changes Can Reduce Carbon Emissions
+            </h2>
+
+            <p>
+              Using public transport, saving electricity, reducing waste,
+              and supporting renewable energy can significantly lower
+              personal carbon footprints while improving environmental health.
+            </p>
+
+            <div class="carbon-grid">
+
+              <div class="carbon-grid-box">
+
+                <i class="bi bi-bus-front"></i>
+
+                <h4>
+                  Public Transport
+                </h4>
+
+                <p>
+                  Reduces fuel consumption and road congestion.
+                </p>
+
+              </div>
+
+              <div class="carbon-grid-box">
+
+                <i class="bi bi-lightbulb"></i>
+
+                <h4>
+                  Save Energy
+                </h4>
+
+                <p>
+                  Lower electricity use means fewer emissions.
+                </p>
+
+              </div>
+
+              <div class="carbon-grid-box">
+
+                <i class="bi bi-tree"></i>
+
+                <h4>
+                  Plant Trees
+                </h4>
+
+                <p>
+                  Trees absorb carbon dioxide naturally.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+              <!-- CARBON REDUCTION LEARN MORE -->
+
+      <div class="learn-more text-center">
+
+        <h3>
+          Explore More About Carbon Reduction
+        </h3>
+
+        <p>
+          Understand carbon emissions, climate action,
+          and sustainable lifestyle solutions for a greener future.
+        </p>
+
+        <div class="learn-links">
+
+          <a href="https://ourworldindata.org/co2-and-greenhouse-gas-emissions" target="_blank">
+            CO₂ Emissions Data
+          </a>
+
+          <a href="https://www.un.org/en/climatechange" target="_blank">
+            UN Climate Action
+          </a>
+
+          <a href="https://www.worldwildlife.org/threats/effects-of-climate-change" target="_blank">
+            Climate Change Effects
+          </a>
+
+        </div>
+
+      </div>
+
+      </div>
+
+    </section>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer class="footer" id="footer">
+
+    <div class="container">
+
+      <div class="row gy-5 justify-content-between">
+
+        <!-- LEFT -->
+
+        <div class="col-lg-4 col-md-6">
+
+          <h3 class="footer-logo">
+            EcoShift
+          </h3>
+
+          <p class="footer-info">
+            Yangon, Myanmar
+            <br>
+            Sustainable Lifestyle Awareness Project
+          </p>
+
+          <p class="footer-contact">
+            <strong>Phone:</strong> +95 998 070 809 5
+          </p>
+
+          <p class="footer-contact">
+            <strong>Email:</strong> ecoshift67@gmail.com
+          </p>
+
+        </div>
+
+        <!-- LINKS -->
+
+        <div class="col-lg-3 col-md-6">
+
+          <h4 class="footer-title">
+            Useful Links
+          </h4>
+
+          <ul class="footer-links">
+
+            <li><a href="#">Home</a></li>
+
+            <li><a href="#about">About Us</a></li>
+
+            <li><a href="#faq">FAQ</a></li>
+
+            <li><a href="#footer">Contact</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- RESOURCES -->
+
+        <div class="col-lg-3 col-md-6">
+
+          <h4 class="footer-title">
+            Resources
+          </h4>
+
+          <ul class="footer-links">
+
+            <li><a href="energy.html">Daily Habits</a></li>
+
+            <li><a href="carbon.html">Public Health</a></li>
+
+            <li><a href="clean_energy.html">Climate Action</a></li>
+
+            <li><a href="waste.html">Urban Sustainability</a></li>
+
+            <li><a href="transport.html">Energy Saving</a></li>
+
+            <li><a href="references.html">References</a></li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <div class="footer-bottom-wrapper">
+
+          <!-- COPYRIGHT -->
+
+          <div class="copyright">
+
+            © Copyright <strong>EcoShift</strong>.
+            All Rights Reserved
+            <br>
+
+          </div>
+
+          <!-- SOCIALS -->
+
+          <div class="footer-socials">
+
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+
+            <a href="#"><i class="bi bi-facebook"></i></a>
+
+            <a href="#"><i class="bi bi-instagram"></i></a>
+
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  </section>
+
+  </div>
+
+  </section>
+  <!-- SIGN UP MODAL -->
+
+  <div class="modal fade" id="signupModal" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+
+      <div class="modal-content custom-modal">
+
+        <div class="row g-0">
+
+          <!-- IMAGE -->
+
+          <div class="col-lg-5 d-none d-lg-block">
+
+            <img src="images/bergadder-trees-975091 (1).jpg" class="modal-image" alt="">
+
+          </div>
+
+          <!-- FORM -->
+
+          <div class="col-lg-7">
+
+            <div class="modal-header border-0">
+
+              <h2 class="modal-title custom-modal-title">
+                Create Account
+              </h2>
+
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+              </button>
+
+            </div>
+
+            <div class="modal-body">
+
+              <form>
+
+                <div class="mb-3">
+
+                  <input type="text" class="form-control custom-input" placeholder="Full Name">
+
+                </div>
+
+                <div class="mb-3">
+
+                  <input type="email" class="form-control custom-input" placeholder="Email Address">
+
+                </div>
+
+                <div class="mb-3">
+
+                  <input type="password" class="form-control custom-input" placeholder="Password">
+
+                </div>
+
+                <div class="mb-4">
+
+                  <input type="password" class="form-control custom-input" placeholder="Confirm Password">
+
+                </div>
+
+                <button class="btn modal-btn w-100">
+                  Sign Up
+                </button>
+
+                <p class="text-center mt-4 text-white">
+
+                  Already have an account?
+
+                  <a href="#" class="switch-link" data-bs-dismiss="modal" data-bs-toggle="modal"
+                    data-bs-target="#loginModal">
+
+                    Login
+
+                  </a>
+
+                </p>
+
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- LOGIN MODAL -->
+
+  <div class="modal fade" id="loginModal" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content custom-modal">
+
+        <div class="modal-header border-0">
+
+          <h2 class="modal-title custom-modal-title">
+            Welcome Back
+          </h2>
+
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+          </button>
+
+        </div>
+
+        <div class="modal-body">
+
+          <form>
+
+            <div class="mb-3">
+
+              <input type="email" class="form-control custom-input" placeholder="Email Address">
+
+            </div>
+
+            <div class="mb-4">
+
+              <input type="password" class="form-control custom-input" placeholder="Password">
+
+            </div>
+
+            <button class="btn modal-btn w-100">
+              Login
+            </button>
+
+            <p class="text-center mt-4 text-white">
+
+              Don't have an account?
+
+              <a href="#" class="switch-link" data-bs-dismiss="modal" data-bs-toggle="modal"
+                data-bs-target="#signupModal">
+
+                Sign Up
+
+              </a>
+
+            </p>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- BOOTSTRAP JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 100
+    });
+  </script>
+</body>
+
+</html>

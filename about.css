@@ -1,0 +1,845 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:
+    linear-gradient(rgba(0, 25, 10, 0.644), rgba(0, 25, 10, 0.82)),
+    url(images/hamlinjandrew-drone-5008211\ \(1\).jpg);
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+
+.custom-navbar {
+  background: rgba(6, 20, 13, 0.92);
+  padding: 18px 0;
+  border-bottom: 1px rgba(255, 255, 255, 0.05);
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* LOGO IMAGE */
+
+.navbar-logo {
+  height: 55px;
+  width: 55px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  padding: 4px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  border: 2px solid rgba(255, 255, 255, 0.12);
+
+  backdrop-filter: blur(12px);
+
+  transition: 0.4s ease;
+
+  box-shadow:
+    0 0 15px rgba(46, 204, 113, 0.25),
+    0 0 35px rgba(46, 204, 113, 0.12);
+}
+
+/* HOVER EFFECT */
+
+.navbar-logo:hover {
+  transform: scale(1.08) rotate(4deg);
+
+  box-shadow:
+    0 0 20px rgba(46, 204, 113, 0.5),
+    0 0 50px rgba(46, 204, 113, 0.2);
+
+  border-color: rgba(128, 237, 153, 0.5);
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin-left: 18px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #80ed99;
+}
+/* DROPDOWN */
+
+.custom-dropdown {
+  background: #123524;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.custom-dropdown .dropdown-item {
+  color: #d8f3dc;
+  border-radius: 10px;
+  padding: 10px 14px;
+  transition: 0.3s;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background: #1b4332;
+  color: #80ed99;
+}
+
+.signup-btn {
+  margin-left: 14px;
+  background: #2ecc71;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.signup-btn:hover {
+  background: white;
+  color: #14532d;
+}
+
+/* MOBILE */
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    padding-top: 15px;
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .login-btn {
+    margin-left: 0;
+  }
+
+  .signup-btn {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 10px;
+    width: fit-content;
+  }
+}
+
+/* HERO */
+
+.about-hero {
+  min-height: 60vh;
+  background:
+    linear-gradient(rgba(0, 25, 10, 0.507), rgba(0, 25, 10, 0.82)),
+    url(images/hamlinjandrew-drone-5008211\ \(1\).jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.about-hero h1 {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-hero p {
+  color: #d8f3dc;
+  max-width: 800px;
+  margin: auto;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+/* ABOUT SECTION */
+
+.about-section {
+  padding: 100px 0;
+}
+
+.section-title {
+  color: #d8f3dc;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  color: #d8f3dc;
+  line-height: 32px;
+  font-size: 17px;
+}
+
+/* IMAGE GRID */
+
+.image-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.image-layout img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.small-img {
+  height: 220px;
+}
+
+.big-img {
+  height: 220px;
+}
+
+/*MEMBERS SECTION*/
+
+.member-section {
+  padding-bottom: 100px;
+
+  color: white;
+}
+
+.member-card {
+  position: relative;
+
+  overflow: hidden;
+
+  border-radius: 22px;
+}
+
+.member-card img {
+  width: 100%;
+
+  height: 420px;
+
+  object-fit: cover;
+
+  transition: 0.4s;
+}
+
+.member-card:hover img {
+  transform: scale(1.08);
+}
+
+/* OVERLAY */
+
+.member-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.1));
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: flex-end;
+
+  padding: 30px;
+
+  opacity: 0;
+
+  transition: 0.4s;
+}
+
+.member-card:hover .member-overlay {
+  opacity: 1;
+}
+
+.member-overlay h3 {
+  font-size: 28px;
+
+  margin-bottom: 8px;
+}
+
+.member-overlay p {
+  color: #d8f3dc;
+}
+
+/* =========================
+   MISSION SECTION
+========================= */
+/* SECTION SPACING */
+
+.mission-section {
+  padding: 110px 0;
+  margin-top: 30px;
+}
+
+
+.mission-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 28px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.mission-content {
+  color: white;
+}
+
+.mission-content .section-title {
+  color: white;
+  margin-top: 15px;
+}
+
+.mission-content p {
+  color: #d8f3dc;
+  line-height: 1.9;
+  margin-top: 20px;
+}
+
+.mission-points {
+  margin-top: 35px;
+}
+
+.mission-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 18px 22px;
+  border-radius: 18px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.mission-box:hover {
+  transform: translateX(8px);
+  border-color: rgba(128, 237, 153, 0.35);
+}
+
+.mission-box i {
+  color: #80ed99;
+  font-size: 22px;
+}
+
+.mission-box span {
+  color: white;
+  font-weight: 500;
+}
+
+/* =========================
+   WHY SECTION
+========================= */
+
+.why-section .section-title {
+  color: white;
+  margin-top: 15px;
+}
+
+.why-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 28px;
+  padding: 45px 35px;
+  text-align: center;
+  height: 100%;
+  transition: 0.4s;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.why-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(128, 237, 153, 0.35);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.why-icon {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-icon i {
+  color: #80ed99;
+  font-size: 38px;
+}
+
+.why-card h3 {
+  color: white;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.why-card p {
+  color: #d8f3dc;
+  line-height: 1.8;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 992px) {
+  .mission-section,
+  .why-section {
+    padding: 80px 0;
+  }
+
+  .mission-image img {
+    height: 350px;
+  }
+
+  .mission-content {
+    margin-top: 20px;
+  }
+}
+
+/* FOOTER */
+
+.footer {
+  background: #06140d;
+  color: white;
+  padding-top: 80px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* LOGO */
+
+.footer-logo {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: white;
+}
+
+/* INFO */
+
+.footer-info {
+  line-height: 32px;
+  color: #d8f3dc;
+  margin-bottom: 20px;
+}
+
+.footer-contact {
+  color: #d8f3dc;
+  margin-bottom: 10px;
+}
+
+.footer-contact strong {
+  color: white;
+}
+
+/* TITLES */
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 12px;
+  color: white;
+}
+
+/* GREEN UNDERLINE */
+
+.footer-title::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 50px;
+  height: 3px;
+
+  background: linear-gradient(to right, #2ecc71, #80ed99);
+
+  border-radius: 50px;
+}
+
+/* LINKS */
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 16px;
+}
+
+.footer-links a {
+  color: #d8f3dc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #80ed99;
+  padding-left: 5px;
+}
+
+/* BOTTOM */
+
+.footer-bottom {
+  margin-top: 70px;
+
+  background: #020d08;
+
+  padding: 28px 0;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-bottom-wrapper {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 20px;
+}
+
+/* COPYRIGHT */
+
+.copyright {
+  color: #d8f3dc;
+
+  line-height: 30px;
+}
+
+.copyright strong {
+  color: white;
+}
+
+.copyright span {
+  color: #80ed99;
+}
+
+/* SOCIALS */
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-socials a {
+  width: 44px;
+  height: 44px;
+
+  background: rgba(255, 255, 255, 0.06);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+
+  color: #80ed99;
+
+  font-size: 18px;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.footer-socials a:hover {
+  background: #2ecc71;
+  color: white;
+  transform: translateY(-4px);
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer-bottom-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/*TABLET VIEW*/
+
+@media (max-width: 992px) {
+  .top-bar {
+    padding: 100px 35px 20px;
+  }
+
+  .hero-content {
+    text-align: center;
+
+    padding-top: 20px;
+  }
+
+  .hero-text {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .hero-text h1 {
+    font-size: 52px;
+
+    line-height: 68px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-image {
+    height: 420px;
+
+    margin-bottom: 45px;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .about-section {
+    text-align: center;
+  }
+
+  .about-text {
+    margin: auto;
+  }
+
+  .section-title {
+    font-size: 42px;
+  }
+}
+
+/*MOBILE VIEW*/
+
+@media (max-width: 768px) {
+  .top-bar {
+    padding: 100px 20px 10px;
+  }
+
+  .brand {
+    font-size: 26px;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+
+    margin-left: 14px;
+  }
+
+  .hero-content {
+    padding-top: 20px;
+  }
+
+  .hero-image {
+    height: 300px;
+
+    border-radius: 18px;
+  }
+
+  .hero-text h1 {
+    font-size: 38px;
+
+    line-height: 52px;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+
+    line-height: 28px;
+  }
+
+  .buttons {
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 100%;
+  }
+
+  .buttons .btn {
+    width: 220px;
+  }
+
+  .section-title {
+    font-size: 34px;
+  }
+
+  .small-img,
+  .big-img {
+    height: 220px;
+  }
+
+  .question-box {
+    padding: 30px;
+  }
+
+  .question-box h2 {
+    font-size: 28px;
+  }
+
+  .member-card img {
+    height: 350px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer-icons a {
+    margin: 0 10px;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+}
+
+/* MODAL */
+
+.custom-modal {
+  background: rgba(6, 20, 13, 0.72);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border-radius: 25px;
+  overflow: hidden;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+}
+
+/* DARK BACKDROP */
+
+.modal-backdrop.show {
+  opacity: 0.75;
+}
+
+/* IMAGE */
+
+.modal-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TITLE */
+
+.custom-modal-title {
+  color: white;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+/* SPACING */
+
+.modal-header {
+  padding: 30px 30px 10px;
+}
+
+.modal-body {
+  padding: 10px 30px 35px;
+}
+
+/* INPUTS */
+
+.custom-input {
+  height: 58px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 14px;
+
+  color: white;
+
+  padding: 0 18px;
+}
+
+.custom-input::placeholder {
+  color: #d8f3dc;
+}
+
+.custom-input:focus {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(128, 237, 153, 0.4);
+
+  color: white;
+
+  box-shadow: none;
+}
+
+/* BUTTON */
+
+.modal-btn {
+  height: 56px;
+
+  border-radius: 14px;
+
+  background: #2ecc71;
+
+  color: white;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.modal-btn:hover {
+  background: white;
+  color: #14532d;
+}
+
+/* LINK */
+
+.switch-link {
+  color: #80ed99;
+  text-decoration: none;
+}
+
+.switch-link:hover {
+  text-decoration: underline;
+}

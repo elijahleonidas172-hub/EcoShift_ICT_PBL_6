@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us - EcoShift</title>
+
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS -->
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+
+        <div class="container">
+
+            <!-- LOGO -->
+
+            <a class="navbar-brand" href="#">
+                <img src="images/Eco.png" alt="EcoShift Logo" class="navbar-logo">
+            </a>
+
+            <!-- TOGGLER -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- NAV LINKS -->
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                    <!-- HOME -->
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active" href="index.html">
+                            Home
+                        </a>
+
+                    </li>
+
+                    <!-- ABOUT -->
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="about.html">
+                            About
+                        </a>
+
+                    </li>
+
+                    <!-- DashBoard -->
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="dashboard.html">
+                            Dashboard
+                        </a>
+
+                    </li>
+
+                    <!-- RESOURCES DROPDOWN -->
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+
+                            Resources
+
+                        </a>
+
+                        <ul class="dropdown-menu custom-dropdown">
+
+                            <li>
+                                <a class="dropdown-item" href="energy.html">
+                                    Energy Saving
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="carbon.html">
+                                    Carbon Reduction
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="solar.html">
+                                    Clean Energy
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="waste.html">
+                                    Waste Reduction
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="transport.html">
+                                    Green Transport
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    </li>
+
+                    <!-- CONTACT -->
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
+
+                    </li>
+
+                    <!-- LOGIN -->
+
+                    <li class="nav-item">
+
+                        <a class="nav-link login-btn" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+
+                            Log In
+
+                        </a>
+
+                    </li>
+
+                    <!-- SIGN UP -->
+
+                    <li class="nav-item">
+
+                        <a class="signup-btn" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">
+
+                            Sign Up
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- ABOUT -->
+
+    <section class="about-section" id="about">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5 mt-3">
+
+                <!-- TEXT -->
+
+                <div class="col-lg-5" data-aos="fade-right">
+
+                    <h2 class="section-title">
+                        About Us
+                    </h2>
+
+                    <p class="about-text">
+
+                        EcoShift is a digital platform created
+                        to help Myanmar citizens understand how simple daily choices
+                        can reduce carbon footprints.
+
+                        Our goal is to promote healthier lifestyles while addressing
+                        climate change through practical and easy actions that anyone
+                        can follow.
+
+                    </p>
+
+                </div>
+
+                <!-- IMAGES -->
+
+                <div class="col-lg-7" data-aos="zoom-in">
+
+                    <div class="image-layout">
+
+                        <div>
+                            <img src="images/bergadder-trees-975091 (1).jpg" class="small-img" alt="">
+                        </div>
+
+                        <div>
+                            <img src="images/matthiasboeckel-window-6568592 (1).jpg" class="big-img" alt="">
+                        </div>
+
+                        <div>
+                            <img src="images/pixelwanderer-eco-friendly-10178220.jpg" class="big-img" alt="">
+                        </div>
+
+                        <div>
+                            <img src="images/roszie-save-energy-7382275.png" class="small-img" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- MEMBERS -->
+
+    <section class="member-section" id="members">
+
+        <div class="container">
+
+            <h2 class="section-title text-center" data-aos="fade-up">
+                Our Members
+            </h2>
+
+            <div class="row g-4 mt-3">
+
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in">
+
+                    <div class="member-card">
+
+                        <img src="images/osh.jpg" alt="">
+
+                        <div class="member-overlay">
+
+                            <h3>
+                                Oak Soe Han
+                            </h3>
+
+                            <p>
+                                Handles Sign Up Modal and Energy Saving webpage.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+
+                    <div class="member-card">
+
+                        <img src="images/BKNT.jpg" alt="">
+
+                        <div class="member-overlay">
+
+                            <h3>
+                                Bhone Khant Nyan Thar
+                            </h3>
+
+                            <p>
+                                Handles homepage, About Us webpage, Dashboard Energy Saving webpage, Clean energy webpage, navbar, footer, and combine codes
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+
+                    <div class="member-card">
+
+                        <img src="images/LEO.jpg" alt="">
+
+                        <div class="member-overlay">
+
+                            <h3>
+                                Bhone Thet Han @ Leo
+                            </h3>
+
+                            <p>
+                                Handles Transport webpage and References webpage.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+
+                    <div class="member-card">
+
+                        <img src="images/WMH.jpg" alt="">
+
+                        <div class="member-overlay">
+
+                            <h3>
+                                Win Min Htun
+                            </h3>
+
+                            <p>
+                                Handles the presentation and Carbon reduction webpage.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- OUR MISSION -->
+
+        <section class="mission-section">
+
+            <div class="container">
+
+                <div class="row align-items-center g-5">
+
+                    <!-- LEFT -->
+
+                    <div class="col-lg-6" data-aos="fade-right">
+
+                        <div class="mission-image">
+
+                            <img src="images/rikac-zero-waste-4221633_1920.jpg" alt="Mission">
+
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT -->
+
+                    <div class="col-lg-6" data-aos="fade-left">
+
+                        <div class="mission-content">
+
+                            <span class="mini-tag">
+                                Our Mission
+                            </span>
+
+                            <h2 class="section-title">
+                                Inspiring Sustainable Habits For Everyday Life
+                            </h2>
+
+                            <p>
+                                EcoShift encourages students and communities to adopt
+                                environmentally friendly habits that reduce pollution,
+                                lower carbon emissions, and improve public health.
+                            </p>
+
+                            <div class="mission-points">
+
+                                <div class="mission-box">
+
+                                    <i class="bi bi-check-circle-fill"></i>
+
+                                    <span>
+                                        Promote climate awareness in Myanmar
+                                    </span>
+
+                                </div>
+
+                                <div class="mission-box">
+
+                                    <i class="bi bi-check-circle-fill"></i>
+
+                                    <span>
+                                        Encourage eco-friendly daily actions
+                                    </span>
+
+                                </div>
+
+                                <div class="mission-box">
+
+                                    <i class="bi bi-check-circle-fill"></i>
+
+                                    <span>
+                                        Support healthier urban communities
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- WHY ECOSHIFT -->
+
+        <section class="why-section">
+
+            <div class="container">
+
+                <div class="text-center mb-5" data-aos="fade-up">
+
+                    <span class="mini-tag">
+                        Why EcoShift?
+                    </span>
+
+                    <h2 class="section-title">
+                        Small Changes Can Create Big Environmental Impact
+                    </h2>
+
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- CARD -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+
+                        <div class="why-card">
+
+                            <div class="why-icon">
+
+                                <i class="bi bi-lightbulb-fill"></i>
+
+                            </div>
+
+                            <h3>
+                                Easy Learning
+                            </h3>
+
+                            <p>
+                                We simplify climate and sustainability topics
+                                into practical information for students and communities.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+
+                        <div class="why-card">
+
+                            <div class="why-icon">
+
+                                <i class="bi bi-globe-asia-australia"></i>
+
+                            </div>
+
+                            <h3>
+                                Local Awareness
+                            </h3>
+
+                            <p>
+                                Our platform highlights environmental challenges
+                                affecting Yangon and communities across Myanmar.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+
+                        <div class="why-card">
+
+                            <div class="why-icon">
+
+                                <i class="bi bi-tree-fill"></i>
+
+                            </div>
+
+                            <h3>
+                                Sustainable Future
+                            </h3>
+
+                            <p>
+                                EcoShift promotes long-term environmental responsibility
+                                through education, awareness, and simple lifestyle choices.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer" id="footer">
+
+        <div class="container">
+
+            <div class="row gy-5 justify-content-between">
+
+                <!-- LEFT -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <h3 class="footer-logo">
+                        EcoShift
+                    </h3>
+
+                    <p class="footer-info">
+                        Yangon, Myanmar
+                        <br>
+                        Sustainable Lifestyle Awareness Project
+                    </p>
+
+                    <p class="footer-contact">
+                        <strong>Phone:</strong> +95 998 070 809 5
+                    </p>
+
+                    <p class="footer-contact">
+                        <strong>Email:</strong> ecoshift67@gmail.com
+                    </p>
+
+                </div>
+
+                <!-- LINKS -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <h4 class="footer-title">
+                        Useful Links
+                    </h4>
+
+                    <ul class="footer-links">
+
+                        <li><a href="#">Home</a></li>
+
+                        <li><a href="#about">About Us</a></li>
+
+                        <li><a href="#faq">FAQ</a></li>
+
+                        <li><a href="#footer">Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+                <!-- RESOURCES -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <h4 class="footer-title">
+                        Resources
+                    </h4>
+
+                    <ul class="footer-links">
+
+                        <li><a href="energy.html">Daily Habits</a></li>
+
+                        <li><a href="carbon.html">Public Health</a></li>
+
+                        <li><a href="clean_energy.html">Climate Action</a></li>
+
+                        <li><a href="waste.html">Urban Sustainability</a></li>
+
+                        <li><a href="transport.html">Energy Saving</a></li>
+
+                        <li><a href="references.html">References</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <div class="footer-bottom-wrapper">
+
+                    <!-- COPYRIGHT -->
+
+                    <div class="copyright">
+
+                        © Copyright <strong>EcoShift</strong>.
+                        All Rights Reserved
+                        <br>
+
+                    </div>
+
+                    <!-- SOCIALS -->
+
+                    <div class="footer-socials">
+
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- SIGN UP MODAL -->
+
+    <div class="modal fade" id="signupModal" tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+
+            <div class="modal-content custom-modal">
+
+                <div class="row g-0">
+
+                    <!-- IMAGE -->
+
+                    <div class="col-lg-5 d-none d-lg-block">
+
+                        <img src="images/bergadder-trees-975091 (1).jpg" class="modal-image" alt="">
+
+                    </div>
+
+                    <!-- FORM -->
+
+                    <div class="col-lg-7">
+
+                        <div class="modal-header border-0">
+
+                            <h2 class="modal-title custom-modal-title">
+                                Create Account
+                            </h2>
+
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                            </button>
+
+                        </div>
+
+                        <div class="modal-body">
+
+                            <form>
+
+                                <div class="mb-3">
+
+                                    <input type="text" class="form-control custom-input" placeholder="Full Name">
+
+                                </div>
+
+                                <div class="mb-3">
+
+                                    <input type="email" class="form-control custom-input" placeholder="Email Address">
+
+                                </div>
+
+                                <div class="mb-3">
+
+                                    <input type="password" class="form-control custom-input" placeholder="Password">
+
+                                </div>
+
+                                <div class="mb-4">
+
+                                    <input type="password" class="form-control custom-input"
+                                        placeholder="Confirm Password">
+
+                                </div>
+
+                                <button class="btn modal-btn w-100">
+                                    Sign Up
+                                </button>
+
+                                <p class="text-center mt-4 text-white">
+
+                                    Already have an account?
+
+                                    <a href="#" class="switch-link" data-bs-dismiss="modal" data-bs-toggle="modal"
+                                        data-bs-target="#loginModal">
+
+                                        Login
+
+                                    </a>
+
+                                </p>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LOGIN MODAL -->
+
+    <div class="modal fade" id="loginModal" tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content custom-modal">
+
+                <div class="modal-header border-0">
+
+                    <h2 class="modal-title custom-modal-title">
+                        Welcome Back
+                    </h2>
+
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <form>
+
+                        <div class="mb-3">
+
+                            <input type="email" class="form-control custom-input" placeholder="Email Address">
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <input type="password" class="form-control custom-input" placeholder="Password">
+
+                        </div>
+
+                        <button class="btn modal-btn w-100">
+                            Login
+                        </button>
+
+                        <p class="text-center mt-4 text-white">
+
+                            Don't have an account?
+
+                            <a href="#" class="switch-link" data-bs-dismiss="modal" data-bs-toggle="modal"
+                                data-bs-target="#signupModal">
+
+                                Sign Up
+
+                            </a>
+
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
+</body>
+
+</html>
+</body>
+
+</html>
